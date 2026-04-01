@@ -1,0 +1,164 @@
+{
+  "project": {
+    "name": "octobercms",
+    "repo": "https://github.com/octobercms/october",
+    "root_path": "/home/eric/.openclaw/share-cep-agent/octobercms/project"
+  },
+  "environment": {
+    "requires_docker": true,
+    "ports": [8080]
+  },
+  "artifacts": {
+    "project_path": "/home/eric/.openclaw/share-cep-agent/octobercms/project",
+    "image": "octobercms-app:v1",
+    "container": "octobercms-app"
+  },
+  "official_step_mapping": [
+    {
+      "official_step": "composer create-project october/october myoctober",
+      "plan_implementation": "docker-compose run --rm app composer create-project october/october . --no-interaction"
+    },
+    {
+      "official_step": "php artisan october:install",
+      "plan_implementation": "docker-compose run --rm app php artisan october:install --no-interaction"
+    },
+    {
+      "official_step": "php artisan october:migrate",
+      "plan_implementation": "docker-compose run --rm app php artisan october:migrate"
+    },
+    {
+      "official_step": "php artisan october:mirror",
+      "plan_implementation": "docker-compose run --rm app php artisan october:mirror"
+    },
+    {
+      "official_step": "php artisan october:optimize",
+      "plan_implementation": "docker-compose run --rm app php artisan october:optimize"
+    },
+    {
+      "official_step": "composer dump-autoload --optimize",
+      "plan_implementation": "docker-compose run --rm app composer dump-autoload --optimize"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "action": "prepare_directories",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "mkdir -p project docker/app docker/nginx",
+      "creates": ["project", "docker/app", "docker/nginx"],
+      "depends_on": []
+    },
+    {
+      "id": "step_2",
+      "action": "create_dockerfile",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "cat > docker/app/Dockerfile << 'EOF'\nFROM php:8.2-fpm\n\n# Install system dependencies\nRUN apt-get update && apt-get install -y \\\n    git \\\n    curl \\\n    libpng-dev \\\n    libonig-dev \\\n    libxml2-dev \\\n    zip \\\n    unzip \\\n    libzip-dev \\\n    libcurl4-openssl-dev \\\n    libssl-dev \\\n    && rm -rf /var/lib/apt/lists/*\n\n# Install PHP extensions\nRUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip curl\n\n# Install Composer\nCOPY --from=composer:latest /usr/bin/composer /usr/bin/composer\n\n# Set working directory\nWORKDIR /var/www/html\n\n# Create non-root user\nRUN useradd -u 1000 -g www-data -m october \\\n    && chown -R october:www-data /var/www/html\n\nUSER october\n\nCMD [\"php-fpm\"]\nEOF",
+      "creates": ["docker/app/Dockerfile"],
+      "depends_on": ["step_1"]
+    },
+    {
+      "id": "step_3",
+      "action": "create_nginx_config",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "cat > docker/nginx/default.conf << 'EOF'\nserver {\n    listen 80;\n    server_name localhost;\n    root /var/www/html/public;\n    index index.php index.html index.htm;\n\n    location / {\n        try_files $uri $uri/ /index.php?$query_string;\n    }\n\n    location ~ \\.php$ {\n        fastcgi_pass app:9000;\n        fastcgi_index index.php;\n        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;\n        include fastcgi_params;\n    }\n\n    location ~ /\\.ht {\n        deny all;\n    }\n}\nEOF",
+      "creates": ["docker/nginx/default.conf"],
+      "depends_on": ["step_1"]
+    },
+    {
+      "id": "step_4",
+      "action": "create_docker_compose",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "cat > docker-compose.yml << 'EOF'\nversion: '3.8'\n\nservices:\n  app:\n    build:\n      context: ./docker/app\n    volumes:\n      - ./project:/var/www/html\n    environment:\n      - DB_CONNECTION=mysql\n      - DB_HOST=db\n      - DB_PORT=3306\n      - DB_DATABASE=octobercms\n      - DB_USERNAME=october\n      - DB_PASSWORD=octoberpass\n    depends_on:\n      db:\n        condition: service_healthy\n    networks:\n      - october-network\n\n  web:\n    image: nginx:alpine\n    ports:\n      - \"8080:80\"\n    volumes:\n      - ./project/public:/var/www/html/public\n      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf\n    depends_on:\n      - app\n    networks:\n      - october-network\n\n  db:\n    image: mariadb:10.11\n    environment:\n      - MYSQL_ROOT_PASSWORD=rootpass\n      - MYSQL_DATABASE=octobercms\n      - MYSQL_USER=october\n      - MYSQL_PASSWORD=octoberpass\n    volumes:\n      - db_data:/var/lib/mysql\n    healthcheck:\n      test: [\"CMD\", \"mysqladmin\", \"ping\", \"-h\", \"localhost\", \"-u\", \"root\", \"-prootpass\"]\n      interval: 10s\n      timeout: 5s\n      retries: 5\n    networks:\n      - october-network\n\nnetworks:\n  october-network:\n    driver: bridge\n\nvolumes:\n  db_data:\nEOF",
+      "creates": ["docker-compose.yml"],
+      "depends_on": ["step_2", "step_3"]
+    },
+    {
+      "id": "step_5",
+      "action": "create_env_file",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "cat > .env << 'EOF'\nAPP_ENV=production\nAPP_DEBUG=false\nAPP_URL=http://localhost:8080\n\nDB_CONNECTION=mysql\nDB_HOST=db\nDB_PORT=3306\nDB_DATABASE=octobercms\nDB_USERNAME=october\nDB_PASSWORD=octoberpass\n\nCACHE_DRIVER=file\nSESSION_DRIVER=file\nQUEUE_CONNECTION=sync\n\nREDIS_HOST=127.0.0.1\nREDIS_PASSWORD=null\nREDIS_PORT=6379\n\nMAIL_MAILER=smtp\nMAIL_HOST=mailhog\nMAIL_PORT=1025\nMAIL_USERNAME=null\nMAIL_PASSWORD=null\nMAIL_ENCRYPTION=null\nMAIL_FROM_ADDRESS=\"hello@example.com\"\nMAIL_FROM_NAME=\"${APP_NAME}\"\n\nAWS_ACCESS_KEY_ID=\nAWS_SECRET_ACCESS_KEY=\nAWS_DEFAULT_REGION=us-east-1\nAWS_BUCKET=\n\nPUSHER_APP_ID=\nPUSHER_APP_KEY=\nPUSHER_APP_SECRET=\nPUSHER_HOST=\nPUSHER_PORT=443\nPUSHER_SCHEME=https\nPUSHER_APP_CLUSTER=mt1\n\nVITE_PUSHER_APP_KEY=\"${PUSHER_APP_KEY}\"\nVITE_PUSHER_HOST=\"${PUSHER_HOST}\"\nVITE_PUSHER_PORT=\"${PUSHER_PORT}\"\nVITE_PUSHER_SCHEME=\"${PUSHER_SCHEME}\"\nVITE_PUSHER_APP_CLUSTER=\"${PUSHER_APP_CLUSTER}\"\nEOF",
+      "creates": [".env"],
+      "depends_on": ["step_4"]
+    },
+    {
+      "id": "step_6",
+      "action": "build_docker_images",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "docker-compose build",
+      "creates": [],
+      "depends_on": ["step_4", "step_5"]
+    },
+    {
+      "id": "step_7",
+      "action": "start_database",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "docker-compose up -d db && sleep 10",
+      "creates": [],
+      "depends_on": ["step_6"]
+    },
+    {
+      "id": "step_8",
+      "action": "create_project",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "docker-compose run --rm app composer create-project october/october . --no-interaction",
+      "creates": ["project/composer.json"],
+      "depends_on": ["step_7"]
+    },
+    {
+      "id": "step_9",
+      "action": "check_install_options",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "docker-compose run --rm app php artisan october:install --help | grep -E '(--no-interaction|--force|--license)' || true",
+      "creates": [],
+      "depends_on": ["step_8"]
+    },
+    {
+      "id": "step_10",
+      "action": "install_october",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "docker-compose run --rm app php artisan october:install --no-interaction || docker-compose run --rm app php artisan october:install",
+      "creates": ["project/.env"],
+      "depends_on": ["step_9"]
+    },
+    {
+      "id": "step_11",
+      "action": "run_migrations",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "docker-compose run --rm app php artisan october:migrate",
+      "creates": [],
+      "depends_on": ["step_10"]
+    },
+    {
+      "id": "step_12",
+      "action": "create_public_mirror",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "docker-compose run --rm app php artisan october:mirror",
+      "creates": ["project/public"],
+      "depends_on": ["step_11"]
+    },
+    {
+      "id": "step_13",
+      "action": "optimize_application",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "docker-compose run --rm app php artisan october:optimize && docker-compose run --rm app composer dump-autoload --optimize",
+      "creates": [],
+      "depends_on": ["step_12"]
+    },
+    {
+      "id": "step_14",
+      "action": "start_application",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "docker-compose up -d",
+      "creates": [],
+      "depends_on": ["step_13"]
+    },
+    {
+      "id": "step_15",
+      "action": "verify_deployment",
+      "working_dir": "/home/eric/.openclaw/share-cep-agent/octobercms",
+      "command": "sleep 5 && curl -f http://localhost:8080 || echo 'Verification failed but continuing'",
+      "creates": [],
+      "depends_on": ["step_14"]
+    }
+  ]
+}

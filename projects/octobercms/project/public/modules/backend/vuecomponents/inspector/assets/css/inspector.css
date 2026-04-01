@@ -1,0 +1,27 @@
+@import "_host.css";
+@import "_controlhost.css";
+@import "_controls.css";
+@import "_group.css";
+
+.component-backend-inspector-panel {
+    --inspector-base-control-side-padding: 12px;
+    --inspector-placeholder-color: var(--bs-tertiary-color);
+    --inspector-control-height: 35px;
+
+    .inspector-padding-control-left {
+        padding-left: 20px;
+    }
+
+    .inspector-control-container {
+        padding-right: 20px;
+    }
+
+    .inspector-padding-control-right {
+        padding-right: 20px;
+    }
+
+    .component-backend-tabs.style-inspector > .tablist-container .tablist button {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}

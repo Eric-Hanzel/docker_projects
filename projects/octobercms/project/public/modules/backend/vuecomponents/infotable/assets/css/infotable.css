@@ -1,0 +1,30 @@
+.component-backend-infotable {
+    width: 100%;
+    margin-bottom: 30px;
+
+    > tbody > tr {
+        > th,
+        > td {
+            line-height: 150%;
+            padding: 7px;
+            font-weight: normal;
+            border-bottom: 1px solid var(--oc-primary-border);
+            color: var(--oc-toolbar-color);
+            vertical-align: top;
+        }
+
+        > td {
+            padding-right: 0;
+        }
+
+        > th {
+            padding-left: 0;
+            font-weight: 600;
+            color: var(--oc-primary-color);
+            width: 100px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
