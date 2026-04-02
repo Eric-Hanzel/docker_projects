@@ -1,7 +1,0 @@
-.component-backend-monaco-editor {
-    .editor-container {
-        &.editor-container-vs-dark {
-            background: #1e1e1e;
-        }
-    }
-}

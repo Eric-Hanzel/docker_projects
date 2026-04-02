@@ -1,9 +1,0 @@
-@import "_editor-styles.css";
-
-.component-backend-richeditor {
-    position: relative;
-
-    .field-richeditor {
-        border: none;
-    }
-}
