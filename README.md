@@ -4,11 +4,17 @@
 
 ### v0.0.9
 - ### prestashop-9.1.0
-{"url":"https://github.com/PrestaShop/PrestaShop","project_name":"PrestaShop","version_requirement":"最新版","language":"PHP","db_requirement":"any flavor of MySQL5.6+","mysql_required":true,"mysql_major_version_required":"8.0","mysql_preferred_version":"8.0.36","fail_if_mysql_requirement_unmet":true,"select_target_version_by_requirement":true,"provide_mysql_admin_credentials":true,"provide_web_admin_credentials":true}
+{"url":"https://github.com/PrestaShop/PrestaShop","project_name":"PrestaShop","version_requirement":"最新版","language":"PHP",
+"db_requirement":"any flavor of MySQL 5.6+","mysql_required":true,"mysql_major_version_required":"8.0","mysql_preferred_version":"8.0.36","fail_if_mysql_requirement_unmet":true,
+"select_target_version_by_requirement":true,"provide_mysql_admin_credentials":true,"provide_web_admin_credentials":true}
 - ### leantime-3.7.3
-{"url":"https://github.com/Leantime/leantime","project_name":"leantime","version_requirement":"最新版","language":"PHP","db_requirement":"MySQL8.0+","mysql_required":true,"mysqlmysql_version36","fail_if_mysql_requirement_unmet":true,"select_target_version_by_requirement":true,"provide_mysql_admin_credentials":true,"provide_web_admin_credentials":true}
+{"url":"https://github.com/Leantime/leantime","project_name":"leantime","version_requirement":"最新版","language":"PHP",
+"db_requirement":"MySQL 8.0+","mysql_required":true,"mysql_major_version_required":"8.0","mysql_preferred_version":"8.0.36","fail_if_mysql_requirement_unmet":true,
+"select_target_version_by_requirement":true,"provide_mysql_admin_credentials":true,"provide_web_admin_credentials":true}
 - ### oscommerce-4.14.63493
-{"url":"https://www.oscommerce.com/","project_name":"oscommerce","version_requirement":"最新版","language":"PHP","db_requirement":"可能支持mysql8.0","mysql_required":true,"mysql_major_version_required":"8.0","mysql_preferred_version":"8.0.36","fail_if_mysql_requirement_unmet":true,"select_target_version_by_requirement":true,"provide_mysql_admin_credentials":true,"provide_web_admin_credentials":true}
+{"url":"https://www.oscommerce.com/","project_name":"oscommerce","version_requirement":"最新版","language":"PHP",
+"db_requirement":"可能支持mysql8.0","mysql_required":true,"mysql_major_version_required":"8.0","mysql_preferred_version":"8.0.36","fail_if_mysql_requirement_unmet":true,
+"select_target_version_by_requirement":true,"provide_mysql_admin_credentials":true,"provide_web_admin_credentials":true}
 ### v0.0.8
 - ### cube
     {"url":"https://github.com/cube-js/cube"}
