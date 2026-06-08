@@ -1,10 +1,10 @@
 .DS_Store
 
 # APDv1 runtime logs and generated run output
-APDv1/APDv1/DP_LOGS/
-APDv1/APDv1/batch/runs/
-APDv1/APDv1/batch/*.log
-APDv1/APDv1/batch/*.pid
+APDv1/DP_LOGS/
+APDv1/batch/runs/
+APDv1/batch/*.log
+APDv1/batch/*.pid
 
 # Logs and process/runtime artifacts
 *.log
