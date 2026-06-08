@@ -1,0 +1,10 @@
+# run_id=batch-20260424_194721-132027 generated_at=2026-04-24T19:47:21+08:00
+2026-04-24T21:33:18+08:00	task_id=task-002	idx=2	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/keploy/keploy	target_json={"url":"https://github.com/keploy/keploy"}
+2026-04-24T22:33:25+08:00	task_id=task-003	idx=3	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/opf/openproject	target_json={"url":"https://github.com/opf/openproject"}
+2026-04-24T23:33:34+08:00	task_id=task-004	idx=4	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/pipe-cd/pipecd	target_json={"url":"https://github.com/pipe-cd/pipecd"}
+2026-04-25T00:06:27+08:00	task_id=task-005	idx=5	status=COMPLETED_FAILED	result=failed	rc=0	url=https://github.com/redmine/redmine	target_json={"url":"https://github.com/redmine/redmine"}
+2026-04-25T01:06:45+08:00	task_id=task-006	idx=6	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/screwdriver-cd/screwdriver	target_json={"url":"https://github.com/screwdriver-cd/screwdriver"}
+2026-04-25T02:07:14+08:00	task_id=task-007	idx=7	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/spinnaker/spinnaker	target_json={"url":"https://github.com/spinnaker/spinnaker"}
+2026-04-25T03:47:13+08:00	task_id=task-009	idx=9	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/kubeshop/testkube	target_json={"url":"https://github.com/kubeshop/testkube"}
+2026-04-25T03:52:24+08:00	task_id=task-010	idx=10	status=COMPLETED_FAILED	result=failed	rc=0	url=https://github.com/travis-ci	target_json={"url":"https://github.com/travis-ci"}
+2026-04-25T12:03:24+08:00	task_id=task-025	idx=25	status=COMPLETED_FAILED	result=failed	rc=0	url=https://github.com/uber/kraken	target_json={"url":"https://github.com/uber/kraken"}

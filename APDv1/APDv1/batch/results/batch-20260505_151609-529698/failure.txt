@@ -1,0 +1,25 @@
+# run_id=batch-20260505_151609-529698 generated_at=2026-05-05T15:16:10+08:00
+2026-05-05T17:46:34+08:00	task_id=task-003	idx=3	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/AppFlowy-IO/AppFlowy-Cloud	target_json={"url":"https://github.com/AppFlowy-IO/AppFlowy-Cloud"}
+2026-05-05T21:31:54+08:00	task_id=task-008	idx=8	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/zitadel/zitadel	target_json={"url":"https://github.com/zitadel/zitadel"}
+2026-05-05T22:19:04+08:00	task_id=task-009	idx=9	status=COMPLETED_FAILED	result=failed	rc=0	url=https://github.com/casdoor/casdoor	target_json={"url":"https://github.com/casdoor/casdoor"}
+2026-05-05T22:50:46+08:00	task_id=task-011	idx=11	status=ABORTED	result=failed	rc=1	url=https://github.com/solo-io/gloo	target_json={"url":"https://github.com/solo-io/gloo"}
+2026-05-05T22:51:22+08:00	task_id=task-012	idx=12	status=ABORTED	result=failed	rc=1	url=https://github.com/emissary-ingress/emissary	target_json={"url":"https://github.com/emissary-ingress/emissary"}
+2026-05-05T22:52:03+08:00	task_id=task-013	idx=13	status=ABORTED	result=failed	rc=1	url=https://github.com/wso2/product-apim	target_json={"url":"https://github.com/wso2/product-apim"}
+2026-05-05T22:52:39+08:00	task_id=task-014	idx=14	status=ABORTED	result=failed	rc=1	url=https://github.com/mailcow/mailcow-dockerized	target_json={"url":"https://github.com/mailcow/mailcow-dockerized"}
+2026-05-05T22:53:15+08:00	task_id=task-015	idx=15	status=ABORTED	result=failed	rc=1	url=https://github.com/knadh/listmonk	target_json={"url":"https://github.com/knadh/listmonk"}
+2026-05-05T22:54:08+08:00	task_id=task-016	idx=16	status=ABORTED	result=failed	rc=1	url=https://github.com/Mailu/Mailu	target_json={"url":"https://github.com/Mailu/Mailu"}
+2026-05-05T22:54:56+08:00	task_id=task-017	idx=17	status=ABORTED	result=failed	rc=1	url=https://github.com/iredmail/iRedMail	target_json={"url":"https://github.com/iredmail/iRedMail"}
+2026-05-05T22:55:30+08:00	task_id=task-018	idx=18	status=ABORTED	result=failed	rc=1	url=https://github.com/modoboa/modoboa	target_json={"url":"https://github.com/modoboa/modoboa"}
+2026-05-05T22:56:07+08:00	task_id=task-019	idx=19	status=ABORTED	result=failed	rc=1	url=https://github.com/mail-in-a-box/mailinabox	target_json={"url":"https://github.com/mail-in-a-box/mailinabox"}
+2026-05-05T22:56:53+08:00	task_id=task-020	idx=20	status=ABORTED	result=failed	rc=1	url=https://github.com/analogic/poste.io	target_json={"url":"https://github.com/analogic/poste.io"}
+2026-05-05T22:57:29+08:00	task_id=task-021	idx=21	status=ABORTED	result=failed	rc=1	url=https://github.com/docker-mailserver/docker-mailserver	target_json={"url":"https://github.com/docker-mailserver/docker-mailserver"}
+2026-05-05T22:58:03+08:00	task_id=task-022	idx=22	status=ABORTED	result=failed	rc=1	url=https://github.com/zextras/carbonio-ce	target_json={"url":"https://github.com/zextras/carbonio-ce"}
+2026-05-05T22:58:44+08:00	task_id=task-023	idx=23	status=ABORTED	result=failed	rc=1	url=https://github.com/grommunio	target_json={"url":"https://github.com/grommunio"}
+2026-05-05T22:59:24+08:00	task_id=task-024	idx=24	status=ABORTED	result=failed	rc=1	url=https://github.com/vdukhovni/postfix	target_json={"url":"https://github.com/vdukhovni/postfix"}
+2026-05-05T23:00:04+08:00	task_id=task-025	idx=25	status=ABORTED	result=failed	rc=1	url=https://github.com/haraka/Haraka	target_json={"url":"https://github.com/haraka/Haraka"}
+2026-05-05T23:00:39+08:00	task_id=task-026	idx=26	status=ABORTED	result=failed	rc=1	url=https://github.com/OpenSMTPD/OpenSMTPD	target_json={"url":"https://github.com/OpenSMTPD/OpenSMTPD"}
+2026-05-05T23:01:19+08:00	task_id=task-027	idx=27	status=ABORTED	result=failed	rc=1	url=https://github.com/Zimbra/zm-mailbox	target_json={"url":"https://github.com/Zimbra/zm-mailbox"}
+2026-05-05T23:01:51+08:00	task_id=task-028	idx=28	status=ABORTED	result=failed	rc=1	url=https://github.com/sendmail/sendmail	target_json={"url":"https://github.com/sendmail/sendmail"}
+2026-05-05T23:02:30+08:00	task_id=task-029	idx=29	status=ABORTED	result=failed	rc=1	url=https://github.com/the-djmaze/snappymail	target_json={"url":"https://github.com/the-djmaze/snappymail"}
+2026-05-05T23:03:14+08:00	task_id=task-030	idx=30	status=ABORTED	result=failed	rc=1	url=https://github.com/RainLoop/rainloop-webmail	target_json={"url":"https://github.com/RainLoop/rainloop-webmail"}
+2026-05-05T23:04:00+08:00	task_id=task-031	idx=31	status=ABORTED	result=failed	rc=1	url=https://github.com/Alinto/sogo	target_json={"url":"https://github.com/Alinto/sogo"}

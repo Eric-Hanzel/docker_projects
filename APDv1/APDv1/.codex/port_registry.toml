@@ -1,0 +1,4 @@
+enabled = true
+registry_file = ".codex/state/port_registry.json"
+default_range_start = 18080
+default_range_end = 18999

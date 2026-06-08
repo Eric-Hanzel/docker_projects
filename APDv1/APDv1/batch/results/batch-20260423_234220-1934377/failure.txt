@@ -1,0 +1,11 @@
+# run_id=batch-20260423_234220-1934377 generated_at=2026-04-23T23:42:20+08:00
+2026-04-24T00:18:33+08:00	task_id=task-001	idx=1	status=COMPLETED_FAILED	result=failed	rc=0	url=https://github.com/frappe/erpnext	target_json={"url":"https://github.com/frappe/erpnext"}
+2026-04-24T01:18:38+08:00	task_id=task-002	idx=2	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/odoo/odoo	target_json={"url":"https://github.com/odoo/odoo"}
+2026-04-24T03:12:24+08:00	task_id=task-004	idx=4	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/haiwen/seafile	target_json={"url":"https://github.com/haiwen/seafile"}
+2026-04-24T06:04:46+08:00	task_id=task-008	idx=8	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/xwiki-labs/cryptpad	target_json={"url":"https://github.com/xwiki-labs/cryptpad"}
+2026-04-24T08:48:34+08:00	task_id=task-015	idx=15	status=COMPLETED_FAILED	result=failed	rc=0	url=https://github.com/Alfresco/alfresco-community-repo	target_json={"url":"https://github.com/Alfresco/alfresco-community-repo"}
+2026-04-24T09:48:46+08:00	task_id=task-016	idx=16	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/agola-io/agola	target_json={"url":"https://github.com/agola-io/agola"}
+2026-04-24T11:28:09+08:00	task_id=task-018	idx=18	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/devtron-labs/devtron	target_json={"url":"https://github.com/devtron-labs/devtron"}
+2026-04-24T12:28:29+08:00	task_id=task-019	idx=19	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/fluxcd/flux2	target_json={"url":"https://github.com/fluxcd/flux2"}
+2026-04-24T13:28:35+08:00	task_id=task-020	idx=20	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/GerritCodeReview/gerrit	target_json={"url":"https://github.com/GerritCodeReview/gerrit"}
+2026-04-24T16:24:45+08:00	task_id=task-024	idx=24	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/hyscale/hyscale	target_json={"url":"https://github.com/hyscale/hyscale"}

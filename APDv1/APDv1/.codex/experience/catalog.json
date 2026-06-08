@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "description": "Hierarchical experience store for deployment guidance. Query catalog first, then matching subcategory indexes, then only the needed detail records.",
+  "kinds": {
+    "success_patterns": {
+      "description": "Validated successful deployment and packaging patterns that should be reused directly.",
+      "subcategories": {
+        "deploy-path": {
+          "description": "Official-path selection, source-vs-image decisions, and correct deployment shape.",
+          "index_file": "index/success_patterns/deploy-path.jsonl",
+          "detail_file": "details/success_patterns/deploy-path.jsonl"
+        },
+        "runtime-init": {
+          "description": "Initialization, bootstrap, credentials, and runtime sequencing patterns.",
+          "index_file": "index/success_patterns/runtime-init.jsonl",
+          "detail_file": "details/success_patterns/runtime-init.jsonl"
+        },
+        "verification": {
+          "description": "Validated verification flows, content checks, and asset checks.",
+          "index_file": "index/success_patterns/verification.jsonl",
+          "detail_file": "details/success_patterns/verification.jsonl"
+        },
+        "bundle-packaging": {
+          "description": "Portable bundle and image bundle patterns that reproduced correctly.",
+          "index_file": "index/success_patterns/bundle-packaging.jsonl",
+          "detail_file": "details/success_patterns/bundle-packaging.jsonl"
+        },
+        "performance-decisions": {
+          "description": "Validated wait/stop/retry decisions that shortened successful runs.",
+          "index_file": "index/success_patterns/performance-decisions.jsonl",
+          "detail_file": "details/success_patterns/performance-decisions.jsonl"
+        },
+        "project-specific": {
+          "description": "Project-specific successful patterns that are still worth reusing.",
+          "index_file": "index/success_patterns/project-specific.jsonl",
+          "detail_file": "details/success_patterns/project-specific.jsonl"
+        }
+      }
+    },
+    "failure_avoidance_patterns": {
+      "description": "Validated pitfalls, false leads, and preventive checks that avoid wasted retries.",
+      "subcategories": {
+        "source-fetch": {
+          "description": "Clone, codeload, branch discovery, and source delivery pitfalls.",
+          "index_file": "index/failure_avoidance_patterns/source-fetch.jsonl",
+          "detail_file": "details/failure_avoidance_patterns/source-fetch.jsonl"
+        },
+        "image-pull": {
+          "description": "Registry transport failures, throughput limits, and image pull guardrails.",
+          "index_file": "index/failure_avoidance_patterns/image-pull.jsonl",
+          "detail_file": "details/failure_avoidance_patterns/image-pull.jsonl"
+        },
+        "runtime-init": {
+          "description": "Init-time pitfalls, wrong execution users, and bootstrap sequencing failures.",
+          "index_file": "index/failure_avoidance_patterns/runtime-init.jsonl",
+          "detail_file": "details/failure_avoidance_patterns/runtime-init.jsonl"
+        },
+        "dependency-gates": {
+          "description": "Dependency, extension, version, and advisory-gate pitfalls.",
+          "index_file": "index/failure_avoidance_patterns/dependency-gates.jsonl",
+          "detail_file": "details/failure_avoidance_patterns/dependency-gates.jsonl"
+        },
+        "ports-and-network": {
+          "description": "Port conflicts, proxy issues, and network verification traps.",
+          "index_file": "index/failure_avoidance_patterns/ports-and-network.jsonl",
+          "detail_file": "details/failure_avoidance_patterns/ports-and-network.jsonl"
+        },
+        "verification": {
+          "description": "False-positive verification outcomes and missing content-level checks.",
+          "index_file": "index/failure_avoidance_patterns/verification.jsonl",
+          "detail_file": "details/failure_avoidance_patterns/verification.jsonl"
+        },
+        "build-artifacts": {
+          "description": "Frontend build, static asset, and packaging artifact pitfalls.",
+          "index_file": "index/failure_avoidance_patterns/build-artifacts.jsonl",
+          "detail_file": "details/failure_avoidance_patterns/build-artifacts.jsonl"
+        },
+        "project-specific": {
+          "description": "Project-specific pitfalls that still merit targeted recall.",
+          "index_file": "index/failure_avoidance_patterns/project-specific.jsonl",
+          "detail_file": "details/failure_avoidance_patterns/project-specific.jsonl"
+        }
+      }
+    }
+  }
+}

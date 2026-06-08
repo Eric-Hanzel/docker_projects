@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "status": "IDLE",
+  "created_at": "2026-05-05T15:16:10+08:00",
+  "updated_at": "2026-05-05T23:04:00+08:00",
+  "batch_id": "batch-20260505_151609-529698",
+  "target_total": 31,
+  "message": "Batch completed",
+  "pid": 529698,
+  "finished_at": "2026-05-05T23:04:00+08:00"
+}

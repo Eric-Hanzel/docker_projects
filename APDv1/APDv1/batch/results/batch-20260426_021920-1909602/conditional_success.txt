@@ -1,0 +1,3 @@
+# run_id=batch-20260426_021920-1909602 generated_at=2026-04-26T02:19:28+08:00
+2026-04-26T03:02:39+08:00	task_id=task-002	idx=2	status=COMPLETED_CONDITIONAL_SUCCESS	result=conditional_success	rc=0	url=https://github.com/buildkite/agent	target_json={"url":"https://github.com/buildkite/agent"}
+2026-04-26T12:36:55+08:00	task_id=task-022	idx=22	status=COMPLETED_CONDITIONAL_SUCCESS	result=conditional_success	rc=0	url=https://github.com/localstack/localstack	target_json={"url":"https://github.com/localstack/localstack"}

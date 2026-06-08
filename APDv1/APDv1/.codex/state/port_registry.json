@@ -1,0 +1,1323 @@
+{
+  "claims": [
+    {
+      "compose_project": "cozy-stack-final",
+      "created_at": "2026-04-26T10:49:27+08:00",
+      "note": "http",
+      "port": 8080,
+      "project": "cozy-stack-final",
+      "status": "active",
+      "updated_at": "2026-04-26T10:49:55+08:00"
+    },
+    {
+      "created_at": "2026-04-23T03:05:57+08:00",
+      "port": 9124,
+      "project": "garden",
+      "status": "reserved",
+      "updated_at": "2026-04-23T03:05:57+08:00"
+    },
+    {
+      "created_at": "2026-04-21T18:13:28+08:00",
+      "port": 10904,
+      "project": "thanos-primary",
+      "status": "active",
+      "updated_at": "2026-04-21T18:33:09+08:00"
+    },
+    {
+      "compose_project": "discourse_portable",
+      "created_at": "2026-04-23T09:21:53+08:00",
+      "port": 14200,
+      "project": "discourse-portable",
+      "status": "active",
+      "updated_at": "2026-04-23T09:22:16+08:00"
+    },
+    {
+      "created_at": "2026-04-25T11:11:37+08:00",
+      "port": 16000,
+      "project": "kraken",
+      "status": "active",
+      "updated_at": "2026-04-25T11:51:47+08:00"
+    },
+    {
+      "compose_project": "tekton-pipeline-final",
+      "created_at": "2026-04-21T07:45:44+08:00",
+      "port": 16443,
+      "project": "tekton-pipeline-final",
+      "status": "reserved",
+      "updated_at": "2026-04-21T07:45:44+08:00"
+    },
+    {
+      "created_at": "2026-05-03T08:47:29+08:00",
+      "port": 18000,
+      "project": "addons-server-2026-04-30",
+      "status": "reserved",
+      "updated_at": "2026-05-03T08:47:29+08:00"
+    },
+    {
+      "compose_project": "argo-cd-final",
+      "created_at": "2026-04-21T08:44:18+08:00",
+      "port": 18080,
+      "project": "argo-cd-final",
+      "status": "active",
+      "updated_at": "2026-04-21T08:44:57+08:00"
+    },
+    {
+      "created_at": "2026-04-21T08:53:31+08:00",
+      "note": "primary-deploy-port",
+      "owner": "task-010",
+      "port": 18081,
+      "project": "argo-workflows",
+      "status": "active",
+      "updated_at": "2026-04-21T09:23:29+08:00"
+    },
+    {
+      "created_at": "2026-04-21T11:07:20+08:00",
+      "port": 18082,
+      "project": "flagger",
+      "status": "active",
+      "updated_at": "2026-04-21T11:51:47+08:00"
+    },
+    {
+      "created_at": "2026-04-21T13:49:33+08:00",
+      "port": 18083,
+      "project": "librenms",
+      "status": "active",
+      "updated_at": "2026-04-21T14:03:18+08:00"
+    },
+    {
+      "compose_project": "nagioscore-final",
+      "created_at": "2026-04-21T16:53:24+08:00",
+      "port": 18084,
+      "project": "nagioscore-final",
+      "status": "reserved",
+      "updated_at": "2026-04-21T16:53:24+08:00"
+    },
+    {
+      "created_at": "2026-04-21T15:58:48+08:00",
+      "port": 18085,
+      "project": "nagioscore",
+      "status": "active",
+      "updated_at": "2026-04-21T16:33:37+08:00"
+    },
+    {
+      "created_at": "2026-04-21T22:17:33+08:00",
+      "port": 18086,
+      "project": "openitcockpit",
+      "status": "reserved",
+      "updated_at": "2026-04-21T22:17:33+08:00"
+    },
+    {
+      "created_at": "2026-04-21T23:56:12+08:00",
+      "port": 18087,
+      "project": "darkstat",
+      "status": "active",
+      "updated_at": "2026-04-22T00:07:17+08:00"
+    },
+    {
+      "created_at": "2026-04-21T23:07:21+08:00",
+      "port": 18088,
+      "project": "monitorix",
+      "status": "reserved",
+      "updated_at": "2026-04-21T23:07:21+08:00"
+    },
+    {
+      "created_at": "2026-04-22T03:00:36+08:00",
+      "port": 18089,
+      "project": "skywalking",
+      "status": "active",
+      "updated_at": "2026-04-22T03:16:28+08:00"
+    },
+    {
+      "created_at": "2026-04-22T05:46:30+08:00",
+      "port": 18090,
+      "project": "superset",
+      "status": "active",
+      "updated_at": "2026-04-22T06:00:10+08:00"
+    },
+    {
+      "created_at": "2026-04-22T06:33:19+08:00",
+      "port": 18091,
+      "project": "metabase",
+      "status": "reserved",
+      "updated_at": "2026-04-22T06:33:19+08:00"
+    },
+    {
+      "created_at": "2026-04-22T08:15:58+08:00",
+      "port": 18092,
+      "project": "opensearch-dashboards",
+      "status": "reserved",
+      "updated_at": "2026-04-22T08:15:58+08:00"
+    },
+    {
+      "created_at": "2026-04-22T09:36:09+08:00",
+      "port": 18093,
+      "project": "gitea",
+      "status": "reserved",
+      "updated_at": "2026-04-22T09:36:09+08:00"
+    },
+    {
+      "compose_project": "exim",
+      "created_at": "2026-04-23T00:02:53+08:00",
+      "note": "primary deployment SMTP port",
+      "owner": "codex",
+      "port": 18094,
+      "project": "exim",
+      "status": "reserved",
+      "updated_at": "2026-04-23T00:02:53+08:00"
+    },
+    {
+      "compose_project": "joomla",
+      "created_at": "2026-04-23T01:37:52+08:00",
+      "port": 18095,
+      "project": "joomla",
+      "status": "reserved",
+      "updated_at": "2026-04-23T01:37:52+08:00"
+    },
+    {
+      "compose_project": "laminar",
+      "created_at": "2026-04-26T02:23:44+08:00",
+      "note": "primary-deploy-port",
+      "owner": "task-001",
+      "port": 18096,
+      "project": "laminar",
+      "status": "active",
+      "updated_at": "2026-04-26T02:31:54+08:00"
+    },
+    {
+      "created_at": "2026-04-23T05:09:27+08:00",
+      "port": 18097,
+      "project": "cube",
+      "status": "active",
+      "updated_at": "2026-04-23T05:15:23+08:00"
+    },
+    {
+      "created_at": "2026-04-26T05:14:08+08:00",
+      "port": 18098,
+      "project": "jaeger",
+      "status": "active",
+      "updated_at": "2026-04-26T05:17:12+08:00"
+    },
+    {
+      "created_at": "2026-04-23T12:15:27+08:00",
+      "port": 18099,
+      "project": "appwrite",
+      "status": "reserved",
+      "updated_at": "2026-04-23T12:15:27+08:00"
+    },
+    {
+      "created_at": "2026-04-23T13:57:36+08:00",
+      "port": 18100,
+      "project": "tooljet",
+      "status": "active",
+      "updated_at": "2026-04-23T14:37:21+08:00"
+    },
+    {
+      "compose_project": "outline",
+      "created_at": "2026-04-23T16:27:20+08:00",
+      "port": 18101,
+      "project": "outline",
+      "status": "reserved",
+      "updated_at": "2026-04-23T16:27:20+08:00"
+    },
+    {
+      "created_at": "2026-04-23T16:51:52+08:00",
+      "port": 18102,
+      "project": "flarum",
+      "status": "active",
+      "updated_at": "2026-04-23T17:10:17+08:00"
+    },
+    {
+      "created_at": "2026-04-23T18:42:19+08:00",
+      "port": 18103,
+      "project": "alerta",
+      "status": "active",
+      "updated_at": "2026-04-23T18:59:07+08:00"
+    },
+    {
+      "created_at": "2026-04-24T00:23:08+08:00",
+      "port": 18104,
+      "project": "odoo",
+      "status": "reserved",
+      "updated_at": "2026-04-24T00:23:08+08:00"
+    },
+    {
+      "created_at": "2026-04-24T02:16:35+08:00",
+      "port": 18105,
+      "project": "seafile",
+      "status": "reserved",
+      "updated_at": "2026-04-24T02:16:35+08:00"
+    },
+    {
+      "created_at": "2026-04-24T05:07:16+08:00",
+      "port": 18106,
+      "project": "cryptpad",
+      "status": "reserved",
+      "updated_at": "2026-04-24T05:07:16+08:00"
+    },
+    {
+      "created_at": "2026-04-24T08:53:13+08:00",
+      "port": 18107,
+      "project": "agola",
+      "status": "reserved",
+      "updated_at": "2026-04-24T08:53:13+08:00"
+    },
+    {
+      "created_at": "2026-04-24T10:30:42+08:00",
+      "port": 18109,
+      "project": "devtron",
+      "status": "active",
+      "updated_at": "2026-04-24T11:27:46+08:00"
+    },
+    {
+      "created_at": "2026-04-24T11:36:15+08:00",
+      "note": "flux2 podinfo verification port",
+      "owner": "codex",
+      "port": 18110,
+      "project": "flux2",
+      "status": "active",
+      "updated_at": "2026-04-24T11:42:04+08:00"
+    },
+    {
+      "compose_project": "gerrit",
+      "created_at": "2026-04-24T12:31:39+08:00",
+      "note": "Gerrit web UI",
+      "owner": "task-020",
+      "port": 18111,
+      "project": "gerrit",
+      "status": "active",
+      "updated_at": "2026-04-24T12:59:03+08:00"
+    },
+    {
+      "compose_project": "gerrit-final",
+      "created_at": "2026-04-24T13:14:34+08:00",
+      "note": "portable bundle",
+      "owner": "portable_bundle_worker",
+      "port": 18112,
+      "project": "gerrit-final",
+      "status": "active",
+      "updated_at": "2026-04-24T13:30:41+08:00"
+    },
+    {
+      "created_at": "2026-04-24T20:59:46+08:00",
+      "port": 18113,
+      "project": "keploy",
+      "status": "reserved",
+      "updated_at": "2026-04-24T20:59:46+08:00"
+    },
+    {
+      "created_at": "2026-04-24T21:37:13+08:00",
+      "port": 18114,
+      "project": "openproject",
+      "status": "reserved",
+      "updated_at": "2026-04-24T21:37:13+08:00"
+    },
+    {
+      "compose_project": "pipecd",
+      "created_at": "2026-04-24T22:41:53+08:00",
+      "note": "pipecd control plane public port",
+      "owner": "codex",
+      "port": 18115,
+      "project": "pipecd",
+      "status": "active",
+      "updated_at": "2026-04-24T23:17:41+08:00"
+    },
+    {
+      "created_at": "2026-04-25T00:16:45+08:00",
+      "port": 18116,
+      "project": "screwdriver",
+      "status": "active",
+      "updated_at": "2026-04-25T01:02:18+08:00"
+    },
+    {
+      "created_at": "2026-04-25T01:14:29+08:00",
+      "port": 18117,
+      "project": "spinnaker",
+      "status": "reserved",
+      "updated_at": "2026-04-25T01:14:29+08:00"
+    },
+    {
+      "created_at": "2026-04-25T02:52:29+08:00",
+      "port": 18118,
+      "project": "testkube",
+      "status": "active",
+      "updated_at": "2026-04-25T03:01:20+08:00"
+    },
+    {
+      "compose_project": "bosun",
+      "created_at": "2026-04-26T03:08:59+08:00",
+      "note": "primary deployment port",
+      "owner": "task-003",
+      "port": 18119,
+      "project": "bosun",
+      "status": "active",
+      "updated_at": "2026-04-26T03:30:41+08:00"
+    },
+    {
+      "compose_project": "datahubfinal",
+      "created_at": "2026-04-26T09:18:36+08:00",
+      "port": 18120,
+      "project": "datahub-final",
+      "status": "active",
+      "updated_at": "2026-04-26T09:19:32+08:00"
+    },
+    {
+      "compose_project": "amundsen",
+      "created_at": "2026-04-26T09:29:04+08:00",
+      "port": 18121,
+      "project": "amundsen",
+      "status": "active",
+      "updated_at": "2026-04-26T09:35:27+08:00"
+    },
+    {
+      "created_at": "2026-04-26T11:01:26+08:00",
+      "port": 18122,
+      "project": "ocis",
+      "status": "active",
+      "updated_at": "2026-04-26T11:19:28+08:00"
+    },
+    {
+      "compose_project": "ocis-final",
+      "created_at": "2026-04-26T11:41:32+08:00",
+      "port": 18123,
+      "project": "ocis-final",
+      "status": "active",
+      "updated_at": "2026-05-10T00:14:38+08:00"
+    },
+    {
+      "compose_project": "tahoe-lafs-final",
+      "created_at": "2026-04-26T18:48:44+08:00",
+      "port": 18124,
+      "project": "tahoe-lafs-final",
+      "status": "active",
+      "updated_at": "2026-04-26T18:48:52+08:00"
+    },
+    {
+      "compose_project": "glusterfs_final",
+      "created_at": "2026-04-26T16:19:07+08:00",
+      "port": 18125,
+      "project": "glusterfs-final",
+      "status": "active",
+      "updated_at": "2026-04-26T16:19:17+08:00"
+    },
+    {
+      "created_at": "2026-04-26T19:07:59+08:00",
+      "port": 18126,
+      "project": "xigmanas",
+      "status": "reserved",
+      "updated_at": "2026-04-26T19:07:59+08:00"
+    },
+    {
+      "compose_project": "teamcitydockerimages",
+      "created_at": "2026-04-26T19:22:09+08:00",
+      "note": "TeamCity primary deployment",
+      "owner": "task-015",
+      "port": 18127,
+      "project": "teamcity-docker-images",
+      "status": "reserved",
+      "updated_at": "2026-04-26T19:22:09+08:00"
+    },
+    {
+      "compose_project": "teamcitydockerimagesfinal",
+      "created_at": "2026-04-26T20:12:25+08:00",
+      "note": "portable TeamCity bundle",
+      "owner": "portable_bundle_worker",
+      "port": 18128,
+      "project": "teamcitydockerimagesfinal",
+      "status": "active",
+      "updated_at": "2026-04-26T20:16:43+08:00"
+    },
+    {
+      "created_at": "2026-04-26T20:21:52+08:00",
+      "port": 18129,
+      "project": "cgit",
+      "status": "active",
+      "updated_at": "2026-04-26T20:28:12+08:00"
+    },
+    {
+      "created_at": "2026-04-26T20:38:01+08:00",
+      "port": 18130,
+      "project": "cgit-final",
+      "status": "active",
+      "updated_at": "2026-04-26T20:39:39+08:00"
+    },
+    {
+      "created_at": "2026-04-26T21:25:16+08:00",
+      "port": 18131,
+      "project": "rhodecode-vcsserver",
+      "status": "active",
+      "updated_at": "2026-04-26T21:49:34+08:00"
+    },
+    {
+      "created_at": "2026-04-26T22:14:34+08:00",
+      "port": 18132,
+      "project": "rhodecode-vcsserver-final",
+      "status": "active",
+      "updated_at": "2026-04-26T22:15:46+08:00"
+    },
+    {
+      "created_at": "2026-04-26T22:27:25+08:00",
+      "port": 18133,
+      "project": "kallithea",
+      "status": "reserved",
+      "updated_at": "2026-04-26T22:27:25+08:00"
+    },
+    {
+      "created_at": "2026-04-27T00:11:42+08:00",
+      "port": 18134,
+      "project": "reviewboard-final",
+      "status": "active",
+      "updated_at": "2026-04-27T00:13:08+08:00"
+    },
+    {
+      "compose_project": "phorge",
+      "created_at": "2026-04-27T00:38:40+08:00",
+      "port": 18135,
+      "project": "phorge",
+      "status": "reserved",
+      "updated_at": "2026-04-27T00:38:40+08:00"
+    },
+    {
+      "created_at": "2026-04-27T02:02:46+08:00",
+      "port": 18136,
+      "project": "nexus-repository-core",
+      "status": "active",
+      "updated_at": "2026-04-27T02:05:16+08:00"
+    },
+    {
+      "compose_project": "harbor",
+      "created_at": "2026-04-27T02:51:27+08:00",
+      "note": "Harbor primary deployment port",
+      "owner": "task-024",
+      "port": 18137,
+      "project": "harbor",
+      "status": "reserved",
+      "updated_at": "2026-04-27T02:51:27+08:00"
+    },
+    {
+      "created_at": "2026-04-27T14:41:44+08:00",
+      "port": 18138,
+      "project": "stackstorm",
+      "status": "active",
+      "updated_at": "2026-04-27T15:08:15+08:00"
+    },
+    {
+      "compose_project": "huginn_portable",
+      "created_at": "2026-04-27T14:18:39+08:00",
+      "port": 18139,
+      "project": "huginn-portable",
+      "status": "active",
+      "updated_at": "2026-04-27T14:25:14+08:00"
+    },
+    {
+      "compose_project": "remoting-primary",
+      "created_at": "2026-04-27T17:18:34+08:00",
+      "port": 18140,
+      "project": "remoting-primary",
+      "status": "active",
+      "updated_at": "2026-04-27T17:22:21+08:00"
+    },
+    {
+      "created_at": "2026-04-27T21:49:23+08:00",
+      "port": 18141,
+      "project": "prestashop",
+      "status": "active",
+      "updated_at": "2026-04-30T22:10:16+08:00"
+    },
+    {
+      "created_at": "2026-04-27T23:48:25+08:00",
+      "port": 18142,
+      "project": "remoting",
+      "status": "active",
+      "updated_at": "2026-04-28T00:40:09+08:00"
+    },
+    {
+      "created_at": "2026-04-28T00:51:12+08:00",
+      "port": 18143,
+      "project": "zulip",
+      "status": "active",
+      "updated_at": "2026-04-28T01:43:00+08:00"
+    },
+    {
+      "created_at": "2026-04-28T03:27:32+08:00",
+      "port": 18144,
+      "project": "misskey",
+      "status": "reserved",
+      "updated_at": "2026-04-28T03:27:32+08:00"
+    },
+    {
+      "compose_project": "synapse",
+      "created_at": "2026-04-28T04:29:49+08:00",
+      "note": "primary-deploy-port",
+      "owner": "task-011",
+      "port": 18145,
+      "project": "synapse",
+      "status": "active",
+      "updated_at": "2026-04-28T04:37:28+08:00"
+    },
+    {
+      "created_at": "2026-04-28T05:16:25+08:00",
+      "port": 18146,
+      "project": "element-web",
+      "status": "active",
+      "updated_at": "2026-04-28T05:23:16+08:00"
+    },
+    {
+      "compose_project": "osticket",
+      "created_at": "2026-04-28T08:22:39+08:00",
+      "note": "osTicket primary deployment task-016",
+      "owner": "codex",
+      "port": 18147,
+      "project": "osticket",
+      "status": "active",
+      "updated_at": "2026-04-28T08:39:04+08:00"
+    },
+    {
+      "compose_project": "zammadfinal",
+      "created_at": "2026-04-28T08:17:33+08:00",
+      "port": 18148,
+      "project": "zammad",
+      "status": "reserved",
+      "updated_at": "2026-04-28T08:17:33+08:00"
+    },
+    {
+      "compose_project": "freescout",
+      "created_at": "2026-04-28T09:09:05+08:00",
+      "note": "primary-deploy",
+      "owner": "task-017",
+      "port": 18149,
+      "project": "freescout",
+      "status": "active",
+      "updated_at": "2026-04-28T09:12:44+08:00"
+    },
+    {
+      "created_at": "2026-04-28T09:45:52+08:00",
+      "port": 18150,
+      "project": "uvdesk",
+      "status": "reserved",
+      "updated_at": "2026-04-28T09:45:52+08:00"
+    },
+    {
+      "created_at": "2026-04-28T10:36:05+08:00",
+      "port": 18151,
+      "project": "firepad",
+      "status": "active",
+      "updated_at": "2026-04-28T11:23:34+08:00"
+    },
+    {
+      "compose_project": "hedgedoc",
+      "created_at": "2026-04-28T11:34:29+08:00",
+      "note": "HedgeDoc primary deployment",
+      "owner": "task-021",
+      "port": 18152,
+      "project": "hedgedoc",
+      "status": "active",
+      "updated_at": "2026-04-28T11:40:22+08:00"
+    },
+    {
+      "compose_project": "hedgedoc-final",
+      "created_at": "2026-04-28T12:06:19+08:00",
+      "note": "portable-bundle",
+      "owner": "hedgedoc-final",
+      "port": 18153,
+      "project": "hedgedoc-final",
+      "status": "active",
+      "updated_at": "2026-04-28T12:06:49+08:00"
+    },
+    {
+      "created_at": "2026-04-28T12:54:33+08:00",
+      "port": 18154,
+      "project": "nodebb",
+      "status": "active",
+      "updated_at": "2026-04-28T13:09:53+08:00"
+    },
+    {
+      "compose_project": "nodebb-final",
+      "created_at": "2026-04-28T13:45:37+08:00",
+      "port": 18155,
+      "project": "nodebb-final",
+      "status": "active",
+      "updated_at": "2026-04-28T13:50:01+08:00"
+    },
+    {
+      "created_at": "2026-04-28T13:49:08+08:00",
+      "port": 18156,
+      "project": "phpbb",
+      "status": "active",
+      "updated_at": "2026-04-28T14:23:47+08:00"
+    },
+    {
+      "compose_project": "phpbb-final",
+      "created_at": "2026-04-28T14:40:18+08:00",
+      "port": 18157,
+      "project": "phpbb-final",
+      "status": "active",
+      "updated_at": "2026-04-28T14:41:26+08:00"
+    },
+    {
+      "created_at": "2026-04-29T05:11:49+08:00",
+      "port": 18158,
+      "project": "collabora-online",
+      "status": "reserved",
+      "updated_at": "2026-04-29T05:11:49+08:00"
+    },
+    {
+      "compose_project": "alfresco-community-repo-gh",
+      "created_at": "2026-04-29T05:40:12+08:00",
+      "note": "http",
+      "port": 18159,
+      "project": "alfresco-community-repo-gh",
+      "status": "reserved",
+      "updated_at": "2026-04-29T05:40:12+08:00"
+    },
+    {
+      "compose_project": "alfresco-community-repo-gh-final",
+      "created_at": "2026-04-29T06:17:38+08:00",
+      "port": 18160,
+      "project": "alfresco-community-repo-gh-final",
+      "status": "active",
+      "updated_at": "2026-04-29T06:18:10+08:00"
+    },
+    {
+      "compose_project": "openkm_portable",
+      "created_at": "2026-04-29T07:11:08+08:00",
+      "port": 18161,
+      "project": "openkm-portable",
+      "status": "active",
+      "updated_at": "2026-04-29T07:11:14+08:00"
+    },
+    {
+      "created_at": "2026-04-29T11:52:49+08:00",
+      "port": 18162,
+      "project": "pdfjs",
+      "status": "reserved",
+      "updated_at": "2026-04-29T11:52:49+08:00"
+    },
+    {
+      "compose_project": "seeddms-final",
+      "created_at": "2026-04-29T07:56:12+08:00",
+      "note": "portable bundle",
+      "owner": "portable_bundle_worker",
+      "port": 18163,
+      "project": "seeddms-final",
+      "status": "active",
+      "updated_at": "2026-04-29T07:56:49+08:00"
+    },
+    {
+      "created_at": "2026-04-29T16:32:30+08:00",
+      "port": 18164,
+      "project": "jekyll",
+      "status": "reserved",
+      "updated_at": "2026-04-29T16:32:30+08:00"
+    },
+    {
+      "created_at": "2026-04-29T17:38:07+08:00",
+      "port": 18165,
+      "project": "hugo",
+      "status": "active",
+      "updated_at": "2026-04-29T18:15:39+08:00"
+    },
+    {
+      "compose_project": "hexo-primary",
+      "created_at": "2026-04-29T18:27:38+08:00",
+      "note": "primary",
+      "owner": "codex",
+      "port": 18166,
+      "project": "hexo",
+      "status": "active",
+      "updated_at": "2026-04-29T18:44:27+08:00"
+    },
+    {
+      "created_at": "2026-04-30T02:11:50+08:00",
+      "port": 18167,
+      "project": "calibre",
+      "status": "reserved",
+      "updated_at": "2026-04-30T02:11:50+08:00"
+    },
+    {
+      "created_at": "2026-04-30T04:20:36+08:00",
+      "port": 18168,
+      "project": "authelia",
+      "status": "active",
+      "updated_at": "2026-04-30T04:28:47+08:00"
+    },
+    {
+      "compose_project": "kratos",
+      "created_at": "2026-04-30T06:56:35+08:00",
+      "note": "primary-deploy-port",
+      "owner": "task-007",
+      "port": 18169,
+      "project": "kratos",
+      "status": "reserved",
+      "updated_at": "2026-04-30T06:56:35+08:00"
+    },
+    {
+      "created_at": "2026-04-30T11:46:23+08:00",
+      "port": 18170,
+      "project": "keto",
+      "status": "reserved",
+      "updated_at": "2026-04-30T11:46:23+08:00"
+    },
+    {
+      "compose_project": "casbin_final",
+      "created_at": "2026-04-30T10:44:01+08:00",
+      "port": 18171,
+      "project": "casbin_final",
+      "status": "active",
+      "updated_at": "2026-04-30T10:44:03+08:00"
+    },
+    {
+      "created_at": "2026-04-30T11:46:46+08:00",
+      "port": 18172,
+      "project": "keto",
+      "status": "reserved",
+      "updated_at": "2026-04-30T11:46:46+08:00"
+    },
+    {
+      "created_at": "2026-05-01T11:55:16+08:00",
+      "port": 18173,
+      "project": "oscommerce",
+      "status": "reserved",
+      "updated_at": "2026-05-01T11:55:16+08:00"
+    },
+    {
+      "created_at": "2026-05-01T14:46:43+08:00",
+      "port": 18174,
+      "project": "istio-1-29-2",
+      "status": "active",
+      "updated_at": "2026-05-01T14:58:16+08:00"
+    },
+    {
+      "created_at": "2026-05-01T14:46:43+08:00",
+      "port": 18175,
+      "project": "istio-1-29-2-kiali",
+      "status": "active",
+      "updated_at": "2026-05-01T14:58:16+08:00"
+    },
+    {
+      "compose_project": "privacyidea-3-13",
+      "created_at": "2026-05-01T15:42:41+08:00",
+      "note": "privacyIDEA primary deployment",
+      "owner": "codex",
+      "port": 18176,
+      "project": "privacyidea-3-13",
+      "status": "reserved",
+      "updated_at": "2026-05-01T15:42:41+08:00"
+    },
+    {
+      "compose_project": "privacyidea-3-13-final",
+      "created_at": "2026-05-01T16:02:20+08:00",
+      "port": 18177,
+      "project": "privacyidea-3-13-final",
+      "status": "active",
+      "updated_at": "2026-05-01T16:07:34+08:00"
+    },
+    {
+      "created_at": "2026-05-01T16:17:39+08:00",
+      "port": 18178,
+      "project": "linotp-3-4-4",
+      "status": "reserved",
+      "updated_at": "2026-05-01T16:17:39+08:00"
+    },
+    {
+      "created_at": "2026-05-02T02:29:21+08:00",
+      "port": 18179,
+      "project": "payload-3-84-1",
+      "status": "active",
+      "updated_at": "2026-05-02T03:04:16+08:00"
+    },
+    {
+      "compose_project": "leantime-2",
+      "created_at": "2026-05-01T02:33:20+08:00",
+      "note": "Leantime official docker deployment",
+      "owner": "official_flow_deploy",
+      "port": 18180,
+      "project": "leantime-2",
+      "status": "reserved",
+      "updated_at": "2026-05-01T02:33:20+08:00"
+    },
+    {
+      "created_at": "2026-05-02T04:34:09+08:00",
+      "note": "primary-deploy-port",
+      "owner": "task-005",
+      "port": 18181,
+      "project": "appsmith-1-99",
+      "status": "active",
+      "updated_at": "2026-05-02T04:43:23+08:00"
+    },
+    {
+      "compose_project": "appsmith-1-99-final",
+      "created_at": "2026-05-02T05:11:23+08:00",
+      "port": 18182,
+      "project": "appsmith-1-99-final",
+      "status": "active",
+      "updated_at": "2026-05-02T05:11:59+08:00"
+    },
+    {
+      "created_at": "2026-05-02T06:22:56+08:00",
+      "port": 18183,
+      "project": "postgraphile-5-0-1-final",
+      "status": "reserved",
+      "updated_at": "2026-05-02T06:22:56+08:00"
+    },
+    {
+      "created_at": "2026-05-03T00:04:27+08:00",
+      "port": 18184,
+      "project": "postgraphile-5",
+      "status": "active",
+      "updated_at": "2026-05-03T00:23:08+08:00"
+    },
+    {
+      "created_at": "2026-05-03T00:50:19+08:00",
+      "port": 18185,
+      "project": "postgraphile-5-final",
+      "status": "active",
+      "updated_at": "2026-05-03T00:50:29+08:00"
+    },
+    {
+      "compose_project": "tyk-5-11-0",
+      "created_at": "2026-05-03T01:20:04+08:00",
+      "note": "Tyk OSS gateway primary deployment",
+      "owner": "codex",
+      "port": 18186,
+      "project": "tyk-5-11-0",
+      "status": "active",
+      "updated_at": "2026-05-03T01:24:12+08:00"
+    },
+    {
+      "compose_project": "graphql-yoga-5-21-0-final",
+      "created_at": "2026-05-03T01:09:23+08:00",
+      "note": "phase6-port",
+      "owner": "portable-bundle",
+      "port": 18187,
+      "project": "graphql-yoga-5-21-0-final",
+      "status": "active",
+      "updated_at": "2026-05-03T01:09:29+08:00"
+    },
+    {
+      "created_at": "2026-05-03T02:33:51+08:00",
+      "port": 18188,
+      "project": "erxes-3-0-20",
+      "status": "reserved",
+      "updated_at": "2026-05-03T02:33:51+08:00"
+    },
+    {
+      "compose_project": "linotp344ghfinal",
+      "created_at": "2026-05-02T02:17:37+08:00",
+      "port": 18189,
+      "project": "linotp344ghfinal",
+      "status": "active",
+      "updated_at": "2026-05-02T02:17:47+08:00"
+    },
+    {
+      "compose_project": "krakend-2-13-4-final",
+      "created_at": "2026-05-03T01:54:11+08:00",
+      "port": 18190,
+      "project": "krakend-2-13-4-final",
+      "status": "active",
+      "updated_at": "2026-05-03T01:54:12+08:00"
+    },
+    {
+      "compose_project": "erxes-3-0-20-final",
+      "created_at": "2026-05-03T03:28:25+08:00",
+      "port": 18191,
+      "project": "erxes-3-0-20-final",
+      "status": "reserved",
+      "updated_at": "2026-05-03T03:28:25+08:00"
+    },
+    {
+      "compose_project": "suitecrm7151",
+      "created_at": "2026-05-03T03:34:29+08:00",
+      "note": "SuiteCRM primary deployment",
+      "owner": "task-007",
+      "port": 18192,
+      "project": "suitecrm7151",
+      "status": "active",
+      "updated_at": "2026-05-03T04:10:35+08:00"
+    },
+    {
+      "created_at": "2026-05-03T05:02:25+08:00",
+      "port": 18193,
+      "project": "elasticsearch-9-3-4-final",
+      "status": "active",
+      "updated_at": "2026-05-03T05:02:32+08:00"
+    },
+    {
+      "created_at": "2026-05-03T05:58:38+08:00",
+      "port": 18194,
+      "project": "windmill-1-694-0",
+      "status": "reserved",
+      "updated_at": "2026-05-03T05:58:38+08:00"
+    },
+    {
+      "created_at": "2026-05-03T06:42:11+08:00",
+      "port": 18195,
+      "project": "vscode-1-111-0",
+      "status": "reserved",
+      "updated_at": "2026-05-03T06:42:11+08:00"
+    },
+    {
+      "created_at": "2026-05-03T08:47:29+08:00",
+      "port": 18196,
+      "project": "addons-server-2026-04-30",
+      "status": "reserved",
+      "updated_at": "2026-05-03T08:47:29+08:00"
+    },
+    {
+      "compose_project": "superset-6-0-0",
+      "created_at": "2026-05-03T09:09:30+08:00",
+      "port": 18197,
+      "project": "superset-6-0-0",
+      "status": "active",
+      "updated_at": "2026-05-03T09:18:57+08:00"
+    },
+    {
+      "compose_project": "superset-6-0-0-final",
+      "created_at": "2026-05-03T09:44:39+08:00",
+      "port": 18199,
+      "project": "superset-6-0-0-final",
+      "status": "active",
+      "updated_at": "2026-05-03T09:45:18+08:00"
+    },
+    {
+      "created_at": "2026-05-03T10:28:40+08:00",
+      "port": 18200,
+      "project": "webmin-2-630",
+      "status": "active",
+      "updated_at": "2026-05-03T10:31:33+08:00"
+    },
+    {
+      "compose_project": "webmin-2-630-final",
+      "created_at": "2026-05-03T10:52:56+08:00",
+      "port": 18201,
+      "project": "webmin-2-630-final",
+      "status": "active",
+      "updated_at": "2026-05-03T10:53:04+08:00"
+    },
+    {
+      "compose_project": "cockpit361",
+      "created_at": "2026-05-03T11:35:35+08:00",
+      "note": "cockpit primary deploy",
+      "port": 18202,
+      "project": "cockpit361",
+      "status": "active",
+      "updated_at": "2026-05-03T11:35:36+08:00"
+    },
+    {
+      "created_at": "2026-05-03T11:43:26+08:00",
+      "port": 18203,
+      "project": "ajenti-2-2-15",
+      "status": "reserved",
+      "updated_at": "2026-05-03T11:43:26+08:00"
+    },
+    {
+      "created_at": "2026-05-03T12:13:43+08:00",
+      "port": 18204,
+      "project": "virtualmin-8-1-0",
+      "status": "active",
+      "updated_at": "2026-05-03T12:26:27+08:00"
+    },
+    {
+      "created_at": "2026-05-03T12:13:43+08:00",
+      "port": 18205,
+      "project": "virtualmin-8-1-0",
+      "status": "active",
+      "updated_at": "2026-05-03T12:26:27+08:00"
+    },
+    {
+      "created_at": "2026-05-03T19:31:27+08:00",
+      "port": 18206,
+      "project": "phpmyadmin-5-2-3",
+      "status": "active",
+      "updated_at": "2026-05-03T19:38:23+08:00"
+    },
+    {
+      "created_at": "2026-05-03T21:23:21+08:00",
+      "port": 18207,
+      "project": "kubernetes-dashboard-7-14-0",
+      "status": "reserved",
+      "updated_at": "2026-05-03T21:23:21+08:00"
+    },
+    {
+      "created_at": "2026-05-03T22:04:44+08:00",
+      "port": 18208,
+      "project": "rancher-2-14-1",
+      "status": "reserved",
+      "updated_at": "2026-05-03T22:04:44+08:00"
+    },
+    {
+      "created_at": "2026-05-03T22:04:54+08:00",
+      "port": 18209,
+      "project": "rancher-2-14-1",
+      "status": "reserved",
+      "updated_at": "2026-05-03T22:04:54+08:00"
+    },
+    {
+      "created_at": "2026-05-03T22:23:21+08:00",
+      "port": 18210,
+      "project": "luci-25-12-2",
+      "status": "reserved",
+      "updated_at": "2026-05-03T22:23:21+08:00"
+    },
+    {
+      "created_at": "2026-05-04T01:21:56+08:00",
+      "port": 18211,
+      "project": "organizr-1-90",
+      "status": "active",
+      "updated_at": "2026-05-04T01:25:35+08:00"
+    },
+    {
+      "compose_project": "cockpit093final",
+      "created_at": "2026-05-04T02:35:03+08:00",
+      "port": 18212,
+      "project": "cockpit-0-9-3",
+      "status": "active",
+      "updated_at": "2026-05-04T02:35:14+08:00"
+    },
+    {
+      "created_at": "2026-05-04T02:44:17+08:00",
+      "port": 18213,
+      "project": "druid-36-0-0",
+      "status": "reserved",
+      "updated_at": "2026-05-04T02:44:17+08:00"
+    },
+    {
+      "compose_project": "redpanda-console-3-7-2",
+      "created_at": "2026-05-04T03:22:51+08:00",
+      "note": "primary deployment UI port",
+      "owner": "task-025",
+      "port": 18214,
+      "project": "redpanda-console-3-7-2",
+      "status": "reserved",
+      "updated_at": "2026-05-04T03:22:51+08:00"
+    },
+    {
+      "compose_project": "nagioscore-4-5-12-nagiosenterprises",
+      "created_at": "2026-05-04T04:52:20+08:00",
+      "port": 18215,
+      "project": "nagioscore-4-5-12-nagiosenterprises",
+      "status": "active",
+      "updated_at": "2026-05-04T05:06:02+08:00"
+    },
+    {
+      "compose_project": "phpmyadmin523final",
+      "created_at": "2026-05-03T19:50:08+08:00",
+      "port": 18216,
+      "project": "phpmyadmin523final",
+      "status": "reserved",
+      "updated_at": "2026-05-03T19:50:08+08:00"
+    },
+    {
+      "created_at": "2026-05-05T02:09:25+08:00",
+      "port": 18217,
+      "project": "nagios-core-4-5-12",
+      "status": "active",
+      "updated_at": "2026-05-05T02:20:10+08:00"
+    },
+    {
+      "created_at": "2026-05-05T08:16:27+08:00",
+      "port": 18218,
+      "project": "toolpad-0-16-0",
+      "status": "active",
+      "updated_at": "2026-05-05T08:20:29+08:00"
+    },
+    {
+      "created_at": "2026-05-05T08:36:54+08:00",
+      "port": 18219,
+      "project": "toolpad-0-16-0-final",
+      "status": "active",
+      "updated_at": "2026-05-05T08:37:16+08:00"
+    },
+    {
+      "created_at": "2026-05-05T08:57:05+08:00",
+      "port": 18220,
+      "project": "react-admin-demo-v5-14-6",
+      "status": "active",
+      "updated_at": "2026-05-05T08:57:19+08:00"
+    },
+    {
+      "compose_project": "amundsen_final",
+      "created_at": "2026-04-26T09:56:22+08:00",
+      "port": 18221,
+      "project": "amundsen_final",
+      "status": "active",
+      "updated_at": "2026-04-26T09:58:12+08:00"
+    },
+    {
+      "created_at": "2026-05-05T15:20:27+08:00",
+      "port": 18222,
+      "project": "react-admin-demo-v5-9-2",
+      "status": "active",
+      "updated_at": "2026-05-05T15:40:18+08:00"
+    },
+    {
+      "compose_project": "reactadmindemov592final",
+      "created_at": "2026-05-05T15:56:03+08:00",
+      "port": 18223,
+      "project": "react-admin-demo-v5-9-2-final",
+      "status": "active",
+      "updated_at": "2026-05-05T15:56:07+08:00"
+    },
+    {
+      "compose_project": "motor-admin-0-4-21-final",
+      "created_at": "2026-05-05T16:38:20+08:00",
+      "port": 18224,
+      "project": "motor-admin-0-4-21-final",
+      "status": "active",
+      "updated_at": "2026-05-05T16:38:24+08:00"
+    },
+    {
+      "compose_project": "appflowy-cloud-0-9-64",
+      "created_at": "2026-05-05T17:41:21+08:00",
+      "port": 18225,
+      "project": "appflowy-cloud-0-9-64",
+      "status": "active",
+      "updated_at": "2026-05-05T17:41:40+08:00"
+    },
+    {
+      "created_at": "2026-05-05T19:35:54+08:00",
+      "port": 18226,
+      "project": "fastdfs-6-15-4-final",
+      "status": "active",
+      "updated_at": "2026-05-05T19:36:10+08:00"
+    },
+    {
+      "compose_project": "sftpgo-2-7-1-final",
+      "created_at": "2026-05-05T20:24:53+08:00",
+      "port": 18227,
+      "project": "sftpgo-2-7-1-final",
+      "status": "active",
+      "updated_at": "2026-05-05T20:24:55+08:00"
+    },
+    {
+      "compose_project": "zitadel",
+      "created_at": "2026-05-05T20:37:37+08:00",
+      "port": 18228,
+      "project": "zitadel-4-13-1",
+      "status": "active",
+      "updated_at": "2026-05-05T20:46:29+08:00"
+    },
+    {
+      "compose_project": "zitadel-4-13-1-final",
+      "created_at": "2026-05-05T21:25:36+08:00",
+      "port": 18229,
+      "project": "zitadel-4-13-1-final",
+      "status": "active",
+      "updated_at": "2026-05-05T21:25:57+08:00"
+    },
+    {
+      "created_at": "2026-05-05T23:46:07+08:00",
+      "port": 18230,
+      "project": "emissary-4-0-1",
+      "status": "reserved",
+      "updated_at": "2026-05-05T23:46:07+08:00"
+    },
+    {
+      "created_at": "2026-05-06T00:45:54+08:00",
+      "port": 18231,
+      "project": "wso2-apim-4-7-0-1",
+      "status": "active",
+      "updated_at": "2026-05-06T01:08:12+08:00"
+    },
+    {
+      "compose_project": "mailcow202603b",
+      "created_at": "2026-05-06T01:43:30+08:00",
+      "port": 18233,
+      "project": "mailcow202603b",
+      "status": "active",
+      "updated_at": "2026-05-06T01:50:19+08:00"
+    },
+    {
+      "compose_project": "livekit-final",
+      "created_at": "2026-04-29T04:08:15+08:00",
+      "port": 18258,
+      "project": "livekit-final",
+      "status": "active",
+      "updated_at": "2026-04-29T04:08:17+08:00"
+    },
+    {
+      "compose_project": "hydra-final",
+      "created_at": "2026-04-30T05:55:03+08:00",
+      "port": 18269,
+      "project": "hydra-final",
+      "status": "active",
+      "updated_at": "2026-04-30T05:55:12+08:00"
+    },
+    {
+      "compose_project": "virtualmin-8-1-0-final",
+      "created_at": "2026-05-03T12:41:36+08:00",
+      "port": 18304,
+      "project": "virtualmin-8-1-0-final",
+      "status": "reserved",
+      "updated_at": "2026-05-03T12:55:48+08:00"
+    },
+    {
+      "compose_project": "metaflowui1314final",
+      "created_at": "2026-05-05T08:05:45+08:00",
+      "port": 18318,
+      "project": "metaflowui1314final",
+      "status": "active",
+      "updated_at": "2026-05-05T08:06:09+08:00"
+    },
+    {
+      "compose_project": "apmserverfinal",
+      "created_at": "2026-04-26T07:27:26+08:00",
+      "port": 18320,
+      "project": "apm-server-final",
+      "status": "active",
+      "updated_at": "2026-04-26T07:28:45+08:00"
+    },
+    {
+      "created_at": "2026-05-06T01:31:07+08:00",
+      "port": 18331,
+      "project": "wso2-apim-4-7-0-1-final",
+      "status": "active",
+      "updated_at": "2026-05-06T01:31:22+08:00"
+    },
+    {
+      "created_at": "2026-04-23T12:22:46+08:00",
+      "port": 18443,
+      "project": "appwrite",
+      "status": "reserved",
+      "updated_at": "2026-04-23T12:22:46+08:00"
+    },
+    {
+      "created_at": "2026-04-23T22:14:47+08:00",
+      "port": 19103,
+      "project": "alerta",
+      "status": "active",
+      "updated_at": "2026-04-23T22:14:47+08:00"
+    },
+    {
+      "compose_project": "collabora-online-final",
+      "created_at": "2026-04-29T05:28:36+08:00",
+      "note": "portable bundle",
+      "owner": "portable_bundle_worker",
+      "port": 28158,
+      "project": "collabora-online-final",
+      "status": "active",
+      "updated_at": "2026-04-29T05:28:49+08:00"
+    }
+  ],
+  "observed": {
+    "docker_published": [],
+    "host_listening": [
+      22,
+      53,
+      631,
+      37907,
+      46209,
+      51000
+    ],
+    "union": [
+      22,
+      53,
+      631,
+      37907,
+      46209,
+      51000
+    ],
+    "updated_at": "2026-05-13T20:44:59+08:00"
+  },
+  "updated_at": "2026-05-13T20:44:59+08:00",
+  "version": 1
+}

@@ -1,0 +1,24 @@
+model = "gpt-5.5"
+model_provider = "openai"
+
+model_reasoning_effort = "medium"
+sandbox_mode = "danger-full-access"
+approval_policy = "never"
+web_search = "live"
+
+[agents]
+max_threads = 6
+max_depth = 1
+job_max_runtime_seconds = 3600
+
+[agents.primary_deploy_auditor]
+description = "Audit and independently verify the official deployment result, then gate Phase 6 entry."
+config_file = "agents/primary_deploy_auditor.toml"
+
+[agents.portable_bundle_worker]
+description = "Run post-deploy-portable-bundle skill for portable extraction and migration verification."
+config_file = "agents/portable_bundle_worker.toml"
+
+[agents.portable_bundle_auditor]
+description = "Audit final portable bundle outputs and final verification evidence, then gate success/failure."
+config_file = "agents/portable_bundle_auditor.toml"
