@@ -2,6 +2,48 @@
 
 ## 前往Release获取可用项目包：
 
+### v0.0.12
+- ### supabase-v1-26-05-final.tar.gz
+    {"url":"https://github.com/supabase/supabase"}
+- ### nocodb-final.tar.gz
+    {"url":"https://github.com/nocodb/nocodb"}
+- ### odoo-19-0-gh-final.tar.gz
+    {"url":"https://github.com/odoo/odoo"}
+- ### cells-final.tar.gz
+    {"url":"https://github.com/pydio/cells"}
+- ### onlyoffice-docs-final.tar.gz
+    {"url":"https://github.com/ONLYOFFICE"}
+- ### etherpad-lite-final.tar.gz
+    {"url":"https://github.com/ether/etherpad-lite"}
+- ### bytebase-final.tar.gz
+    {"url":"https://github.com/bytebase/bytebase"}
+- ### gocd-final.tar.gz
+    {"url":"https://github.com/gocd/gocd"}
+- ### harness-final.tar.gz
+    {"url":"https://github.com/harness"}
+- ### helmwave-final.tar.gz
+    {"url":"https://github.com/helmwave/helmwave"}
+- ### jenkins-x-cli-final.tar.gz
+    {"url":"https://github.com/jenkins-x/jx"}
+- ### werf-final.tar.gz
+    {"url":"https://github.com/werf/werf"}
+- ### woodpecker-final.tar.gz
+    {"url":"https://github.com/woodpecker-ci/woodpecker"}
+- ### gogs-final.tar.gz
+    {"url":"https://github.com/gogs/gogs"}
+- ### forgejo-final.tar.gz
+    {"url":"https://github.com/forgejo/forgejo"}
+- ### buildbot-final.tar.gz
+    {"url":"https://github.com/buildbot/buildbot"}
+- ### helmfile-final.tar.gz
+    {"url":"https://github.com/helmfile/helmfile"}
+- ### kustomize-final.tar.gz
+    {"url":"https://github.com/kubernetes-sigs/kustomize"}
+- ### laminar-final.tar.gz
+    {"url":"https://github.com/ohwgiles/laminar"}
+- ### checkmk-2-5-0-final.tar.gz
+    {"url":"https://github.com/Checkmk/checkmk"}
+
 ### v0.0.11
 - ### pipeline-final.tar.gz
     {"url":"https://github.com/tektoncd/pipeline"}
