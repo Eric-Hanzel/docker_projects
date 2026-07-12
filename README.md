@@ -2,6 +2,48 @@
 
 ## 前往Release获取可用项目包：
 
+### v0.0.11
+- ### pipeline-final.tar.gz
+    {"url":"https://github.com/tektoncd/pipeline"}
+- ### drone-final.tar.gz
+    {"url":"https://github.com/harness/drone"}
+- ### concourse-final.tar.gz
+    {"url":"https://github.com/concourse/concourse"}
+- ### onedev-final.tar.gz
+    {"url":"https://github.com/theonedev/onedev"}
+- ### devlake-final.tar.gz
+    {"url":"https://github.com/apache/incubator-devlake"}
+- ### cacti-final.tar.gz
+    {"url":"https://github.com/Cacti/cacti"}
+- ### librenms-26-4-1-final.tar.gz
+    {"url":"https://github.com/librenms/librenms"}
+- ### observium-final.tar.gz
+    {"url":"https://github.com/observium/observium"}
+- ### nagios-core-4-5-12-final.tar.gz
+    {"url":"https://github.com/NagiosEnterprises/nagioscore"}
+- ### victoriametrics-final.tar.gz
+    {"url":"https://github.com/VictoriaMetrics/VictoriaMetrics"}
+- ### darkstat-final.tar.gz
+    {"url":"https://github.com/emikulic/darkstat"}
+- ### openobserve-final.tar.gz
+    {"url":"https://github.com/openobserve/openobserve"}
+- ### hyperdx-final.tar.gz
+    {"url":"https://github.com/hyperdxio/hyperdx"}
+- ### superset-6-0-0-final.tar.gz
+    {"url":"https://github.com/apache/superset"}
+- ### kibana-9-4-0-final.tar.gz
+    {"url":"https://github.com/elastic/kibana"}
+- ### graylog-7-1-final.tar.gz
+    {"url":"https://github.com/Graylog2/graylog2-server"}
+- ### gitea-final.tar.gz
+    {"url":"https://github.com/go-gitea/gitea"}
+- ### wordpress-7-0-final.tar.gz
+    {"url":"https://github.com/WordPress/WordPress"}
+- ### strapi-final.tar.gz
+    {"url":"https://github.com/strapi/strapi"}
+- ### directus-final.tar.gz
+    {"url":"https://github.com/directus/directus"}
+
 ### v0.0.10
 - ### grafana-final.tar.gz
     {"url":"https://github.com/grafana/grafana"}
