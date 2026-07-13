@@ -1,0 +1,8 @@
+{"url":"https://github.com/nextcloud/server","delivery_mode":"local-run","portable_final_required":false}
+{"url":"https://github.com/chatwoot/chatwoot","delivery_mode":"local-run","portable_final_required":false}
+{"url":"https://github.com/snipe/snipe-it","delivery_mode":"local-run","portable_final_required":false}
+{"url":"https://github.com/zammad/zammad","delivery_mode":"local-run","portable_final_required":false}
+{"url":"https://github.com/gitlabhq/gitlabhq","delivery_mode":"local-run","portable_final_required":false}
+{"url":"https://github.com/discourse/discourse","delivery_mode":"local-run","portable_final_required":false}
+{"url":"https://github.com/mattermost/mattermost","delivery_mode":"local-run","portable_final_required":false}
+{"url":"https://github.com/opf/openproject","delivery_mode":"local-run","portable_final_required":false}

@@ -1,0 +1,13 @@
+{
+  "dataset": "batch-1",
+  "format": "jsonl target records; one JSON object per line; result fields removed",
+  "dedupe_key": "url",
+  "all_projects_jsonl_rows": 323,
+  "success_projects_jsonl_rows": 205,
+  "failure_projects_jsonl_rows": 118,
+  "manual_crosscheck_missing_urls_classified_as_failure": [
+    "https://github.com/dragonflyoss/manager",
+    "https://github.com/snipe/snipe-it"
+  ],
+  "partition_rule": "snipe/snipe-it and dragonflyoss/manager classified as failure per user request"
+}

@@ -1,2 +1,0 @@
-# run_id=batch-20260505_234139-1058703 generated_at=2026-05-05T23:41:39+08:00
-2026-05-06T01:38:00+08:00	task_id=task-002	idx=2	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/wso2/product-apim	target_json={"url":"https://github.com/wso2/product-apim"}

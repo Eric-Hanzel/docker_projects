@@ -1,3 +1,0 @@
-# run_id=batch-20260427_130800-3224921 generated_at=2026-04-27T13:08:00+08:00
-2026-04-27T13:47:01+08:00	task_id=task-001	idx=1	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/n8n-io/n8n	target_json={"url":"https://github.com/n8n-io/n8n"}
-2026-04-27T14:39:07+08:00	task_id=task-002	idx=2	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/huginn/huginn	target_json={"url":"https://github.com/huginn/huginn"}

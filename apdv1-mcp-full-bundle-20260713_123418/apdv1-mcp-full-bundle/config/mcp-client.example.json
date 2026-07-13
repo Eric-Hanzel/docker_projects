@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "apdv1-deployer": {
+      "command": "/absolute/path/to/apdv1-mcp-full-bundle/scripts/start-mcp-stdio.sh",
+      "env": {
+        "APDV1_API_BASE": "http://127.0.0.1:18084"
+      }
+    }
+  }
+}

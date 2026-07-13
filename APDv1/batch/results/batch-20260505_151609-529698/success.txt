@@ -1,8 +1,0 @@
-# run_id=batch-20260505_151609-529698 generated_at=2026-05-05T15:16:10+08:00
-2026-05-05T16:11:07+08:00	task_id=task-001	idx=1	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/marmelab/react-admin	target_json={"url":"https://github.com/marmelab/react-admin"}
-2026-05-05T16:46:28+08:00	task_id=task-002	idx=2	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/motor-admin/motor-admin	target_json={"url":"https://github.com/motor-admin/motor-admin"}
-2026-05-05T18:23:50+08:00	task_id=task-004	idx=4	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/dragonflyoss/Dragonfly2	target_json={"url":"https://github.com/dragonflyoss/Dragonfly2"}
-2026-05-05T19:07:55+08:00	task_id=task-005	idx=5	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/cubefs/cubefs	target_json={"url":"https://github.com/cubefs/cubefs"}
-2026-05-05T19:46:12+08:00	task_id=task-006	idx=6	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/happyfish100/fastdfs	target_json={"url":"https://github.com/happyfish100/fastdfs"}
-2026-05-05T20:31:38+08:00	task_id=task-007	idx=7	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/drakkan/sftpgo	target_json={"url":"https://github.com/drakkan/sftpgo"}
-2026-05-05T22:49:50+08:00	task_id=task-010	idx=10	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/ory/oathkeeper	target_json={"url":"https://github.com/ory/oathkeeper"}

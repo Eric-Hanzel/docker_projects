@@ -1,0 +1,10 @@
+.venv/
+.deps/
+dist/
+apdv1/.codex/state/
+apdv1/app_server/runs/
+apdv1/app_server/results/
+apdv1/Deliverable/
+apdv1/DP_LOGS/
+__pycache__/
+*.pyc

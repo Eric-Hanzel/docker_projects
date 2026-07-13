@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "apdv1-mcp-server"
+version = "0.1.0"
+description = "MCP server wrapper for the APDv1 automatic project deployment agent"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "mcp==1.27.2",
+]
+
+[project.scripts]
+apdv1-mcp-server = "apdv1_mcp_server.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/apdv1_mcp_server"]

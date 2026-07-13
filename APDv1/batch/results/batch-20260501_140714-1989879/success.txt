@@ -1,4 +1,0 @@
-# run_id=batch-20260501_140714-1989879 generated_at=2026-05-01T14:07:15+08:00
-2026-05-01T14:43:35+08:00	task_id=task-001	idx=1	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/spiffe/spire	target_json={"url":"https://github.com/spiffe/spire"}
-2026-05-01T15:39:53+08:00	task_id=task-002	idx=2	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/istio/istio	target_json={"url":"https://github.com/istio/istio"}
-2026-05-01T16:15:40+08:00	task_id=task-003	idx=3	status=COMPLETED_SUCCESS	result=success	rc=0	url=https://github.com/privacyidea/privacyidea	target_json={"url":"https://github.com/privacyidea/privacyidea"}

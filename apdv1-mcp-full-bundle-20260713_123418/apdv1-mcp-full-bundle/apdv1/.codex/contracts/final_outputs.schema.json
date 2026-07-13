@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://apdv1.local/contracts/final_outputs.schema.json",
+  "title": "APDv1 portable final output manifest",
+  "type": "object",
+  "required": [
+    "project_name",
+    "deliverable_dir",
+    "logs_dir",
+    "required_files",
+    "snapshot_kind",
+    "database_state",
+    "verification_result",
+    "audit_result"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "project_name": {"type": "string", "minLength": 1},
+    "deliverable_dir": {"type": "string", "pattern": "^Deliverable/.+-final/?$"},
+    "logs_dir": {"type": "string", "pattern": "^DP_LOGS/.+-final/?$"},
+    "required_files": {
+      "type": "array",
+      "items": {"type": "string"},
+      "contains": {"const": "README_QUICKSTART.md"}
+    },
+    "snapshot_kind": {
+      "type": "string",
+      "enum": ["source-initialized", "runtime-config-initialized"]
+    },
+    "database_state": {
+      "type": "string",
+      "enum": ["sql-dump", "no-db"]
+    },
+    "verification_result": {
+      "type": "object",
+      "required": ["passed", "basic_function_verified"],
+      "additionalProperties": true,
+      "properties": {
+        "passed": {"type": "boolean"},
+        "basic_function_verified": {"type": "boolean"},
+        "public_url": {"type": "string"}
+      }
+    },
+    "audit_result": {
+      "type": "object",
+      "required": ["verdict"],
+      "additionalProperties": true,
+      "properties": {
+        "verdict": {"type": "string", "enum": ["PASS", "FAIL", "CONDITIONAL"]}
+      }
+    }
+  }
+}

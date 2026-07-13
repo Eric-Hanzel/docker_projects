@@ -1,2 +1,0 @@
-# run_id=batch-20260422_235849-141807 generated_at=2026-04-22T23:58:49+08:00
-2026-04-23T08:41:31+08:00	task_id=task-014	idx=14	status=COMPLETED_CONDITIONAL_SUCCESS	result=conditional_success	rc=0	url=https://github.com/RocketChat/Rocket.Chat	target_json={"url":"https://github.com/RocketChat/Rocket.Chat"}

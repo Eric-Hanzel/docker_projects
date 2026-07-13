@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://apdv1.local/contracts/target.schema.json",
+  "title": "APDv1 batch target",
+  "type": "object",
+  "required": ["url"],
+  "additionalProperties": true,
+  "properties": {
+    "url": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Primary upstream repository, release, package, or documentation URL."
+    },
+    "delivery_mode": {
+      "type": "string",
+      "enum": ["local-run", "portable-deliverable"],
+      "description": "Non-batch override. Batch runners force portable-deliverable."
+    },
+    "version_requirement": {
+      "type": "string",
+      "minLength": 1
+    },
+    "addition": {
+      "type": "string"
+    },
+    "license_key": {
+      "type": "string"
+    }
+  }
+}

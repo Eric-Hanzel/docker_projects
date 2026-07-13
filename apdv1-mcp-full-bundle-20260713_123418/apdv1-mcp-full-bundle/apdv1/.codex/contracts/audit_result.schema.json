@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://apdv1.local/contracts/audit_result.schema.json",
+  "title": "APDv1 audit result",
+  "type": "object",
+  "required": [
+    "project_name",
+    "delivery_mode",
+    "attempt",
+    "verdict",
+    "blocking_findings",
+    "warnings",
+    "checked_at"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "project_name": {"type": "string", "minLength": 1},
+    "delivery_mode": {
+      "type": "string",
+      "enum": ["local-run", "portable-deliverable"]
+    },
+    "attempt": {"type": "integer", "minimum": 1},
+    "verdict": {
+      "type": "string",
+      "enum": ["PASS", "FAIL", "CONDITIONAL"]
+    },
+    "verified_url": {"type": "string"},
+    "basic_function_verified": {"type": "boolean"},
+    "blocking_findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "evidence", "required_fix"],
+        "additionalProperties": true,
+        "properties": {
+          "id": {"type": "string"},
+          "title": {"type": "string"},
+          "evidence": {"type": "string"},
+          "required_fix": {"type": "string"}
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "conditional_reason": {"type": "string"},
+    "blocking_requirement": {"type": "string"},
+    "checked_at": {"type": "string"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"verdict": {"const": "PASS"}}},
+      "then": {
+        "properties": {
+          "basic_function_verified": {"const": true},
+          "blocking_findings": {"maxItems": 0}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"verdict": {"const": "CONDITIONAL"}}},
+      "then": {
+        "required": ["conditional_reason", "blocking_requirement"]
+      }
+    }
+  ]
+}

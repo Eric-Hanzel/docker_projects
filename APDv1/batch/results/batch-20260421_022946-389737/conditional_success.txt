@@ -1,2 +1,0 @@
-# run_id=batch-20260421_022946-389737 generated_at=2026-04-21T02:29:46+08:00
-2026-04-21T04:13:21+08:00	task_id=task-003	idx=3	status=COMPLETED_CONDITIONAL_SUCCESS	result=conditional_success	rc=0	url=https://github.com/filerun/filerun	target_json={"url":"https://github.com/filerun/filerun"}

@@ -1,9 +1,0 @@
-# run_id=batch-20260422_235849-141807 generated_at=2026-04-22T23:58:49+08:00
-2026-04-23T04:02:38+08:00	task_id=task-006	idx=6	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/garden-io/garden	target_json={"url":"https://github.com/garden-io/garden"}
-2026-04-23T09:41:38+08:00	task_id=task-015	idx=15	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/discourse/discourse	target_json={"url":"https://github.com/discourse/discourse"}
-2026-04-23T12:11:51+08:00	task_id=task-019	idx=19	status=COMPLETED_FAILED	result=failed	rc=0	url=https://github.com/supabase/supabase	target_json={"url":"https://github.com/supabase/supabase"}
-2026-04-23T12:48:54+08:00	task_id=task-020	idx=20	status=COMPLETED_FAILED	result=failed	rc=0	url=https://github.com/appwrite/appwrite	target_json={"url":"https://github.com/appwrite/appwrite"}
-2026-04-23T14:44:01+08:00	task_id=task-022	idx=22	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/ToolJet/ToolJet	target_json={"url":"https://github.com/ToolJet/ToolJet"}
-2026-04-23T15:44:06+08:00	task_id=task-023	idx=23	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/Budibase/budibase	target_json={"url":"https://github.com/Budibase/budibase"}
-2026-04-23T16:44:11+08:00	task_id=task-024	idx=24	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/outline/outline	target_json={"url":"https://github.com/outline/outline"}
-2026-04-23T17:44:19+08:00	task_id=task-025	idx=25	status=TIMED_OUT	result=failed	rc=124	url=https://github.com/flarum/flarum	target_json={"url":"https://github.com/flarum/flarum"}

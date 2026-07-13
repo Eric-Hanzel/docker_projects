@@ -1,0 +1,54 @@
+# APDv1 workflow profile.
+# Keep high-frequency policy here so AGENTS.md can stay small.
+
+default_delivery_mode = "portable-deliverable"
+batch_delivery_mode = "portable-deliverable"
+
+[cost_control]
+# Main agent builds by default. Auditor remains independent.
+portable_worker_subagent = false
+default_auditor_subagent = true
+experience_precheck = "light"
+experience_feedback = "terminal-only"
+max_deploy_attempts = 4
+max_audit_attempts = 3
+task_timeout_seconds = 3000
+runner_task_attempts = 1
+
+[outputs]
+deliverable_root = "Deliverable"
+logs_root = "DP_LOGS"
+portable_suffix = "-final"
+image_suffix = "-image-final"
+default_final_delivery = "portable"
+supported_final_deliveries = ["portable", "image"]
+
+[verification]
+require_basic_function = true
+require_ui_asset_check = true
+reject_error_signatures = [
+  "Whoops",
+  "Mix manifest not found",
+  "DriverException",
+  "Traceback",
+  "Stack trace",
+  "Unhandled exception",
+]
+
+[audit]
+portable_agent = "portable_bundle_auditor"
+primary_agent = "primary_deploy_auditor"
+portable_result = "DP_LOGS/<project_name>-final/audit_result.json"
+primary_result = "DP_LOGS/<project_name>/audit_result.json"
+allow_conditional = true
+
+[cleanup]
+project_scoped_only = true
+preserve_image_cache = true
+forbidden_global_commands = [
+  "docker system prune",
+  "docker image prune -a",
+  "docker builder prune",
+  "docker volume prune",
+  "docker network prune",
+]
