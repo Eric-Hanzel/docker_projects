@@ -2,6 +2,48 @@
 
 ## 前往Release获取可用项目包：
 
+### v0.0.14
+- ### gitbucket-final.tar.gz
+    {"url":"https://github.com/gitbucket/gitbucket"}
+- ### nexus-repository-3-92-2-final.tar.gz
+    {"url":"https://github.com/sonatype/nexus-public"}
+- ### harbor-final.tar.gz
+    {"url":"https://github.com/goharbor/harbor"}
+- ### verdaccio-final.tar.gz
+    {"url":"https://github.com/verdaccio/verdaccio"}
+- ### n8n-final.tar.gz
+    {"url":"https://github.com/n8n-io/n8n"}
+- ### huginn-final.tar.gz
+    {"url":"https://github.com/huginn/huginn"}
+- ### flarum-framework-final.tar.gz
+    {"url":"https://github.com/flarum/framework"}
+- ### piwigo-final.tar.gz
+    {"url":"https://github.com/Piwigo/Piwigo"}
+- ### mailcow-2026-05a-final.tar.gz
+    {"url":"https://github.com/mailcow/mailcow-dockerized"}
+- ### chatwoot-final.tar.gz
+    {"url":"https://github.com/chatwoot/chatwoot"}
+- ### focalboard-final.tar.gz
+    {"url":"https://github.com/mattermost/focalboard"}
+- ### synapse-final.tar.gz
+    {"url":"https://github.com/matrix-org/synapse"}
+- ### ejabberd-final.tar.gz
+    {"url":"https://github.com/processone/ejabberd"}
+- ### deltachat-core-rust-final.tar.gz
+    {"url":"https://github.com/deltachat/deltachat-core-rust"}
+- ### osticket-final.tar.gz
+    {"url":"https://github.com/osTicket/osTicket"}
+- ### freescout-final.tar.gz
+    {"url":"https://github.com/freescout-help-desk/freescout"}
+- ### hedgedoc-final.tar.gz
+    {"url":"https://github.com/hedgedoc/hedgedoc"}
+- ### codimd-final.tar.gz
+    {"url":"https://github.com/codimd/server"}
+- ### phpbb-3-3-16-final.tar.gz
+    {"url":"https://github.com/phpbb/phpbb"}
+- ### jitsi-meet-final.tar.gz
+    {"url":"https://github.com/jitsi/jitsi-meet"}
+
 ### v0.0.13
 - ### fluentd-final.tar.gz
     {"url":"https://github.com/fluent/fluentd"}
