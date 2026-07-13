@@ -2,6 +2,48 @@
 
 ## 前往Release获取可用项目包：
 
+### v0.0.13
+- ### fluentd-final.tar.gz
+    {"url":"https://github.com/fluent/fluentd"}
+- ### jaeger-final.tar.gz
+    {"url":"https://github.com/jaegertracing/jaeger"}
+- ### zipkin-final.tar.gz
+    {"url":"https://github.com/openzipkin/zipkin"}
+- ### pinpoint-final.tar.gz
+    {"url":"https://github.com/pinpoint-apm/pinpoint"}
+- ### apm-server-final.tar.gz
+    {"url":"https://github.com/elastic/apm-server"}
+- ### lightdash-final.tar.gz
+    {"url":"https://github.com/lightdash/lightdash"}
+- ### evidence-final.tar.gz
+    {"url":"https://github.com/evidence-dev/evidence"}
+- ### datahub-final.tar.gz
+    {"url":"https://github.com/datahub-project/datahub"}
+- ### amundsen-final.tar.gz
+    {"url":"https://github.com/amundsen-io/amundsen"}
+- ### cozy-stack-final.tar.gz
+    {"url":"https://github.com/cozy/cozy-stack"}
+- ### h5ai-final.tar.gz
+    {"url":"https://github.com/lrsjng/h5ai"}
+- ### tinyfilemanager-final.tar.gz
+    {"url":"https://github.com/prasathmani/tinyfilemanager"}
+- ### directorylister-final.tar.gz
+    {"url":"https://github.com/DirectoryLister/DirectoryLister"}
+- ### glusterfs-final.tar.gz
+    {"url":"https://github.com/gluster/glusterfs"}
+- ### moosefs-final.tar.gz
+    {"url":"https://github.com/moosefs/moosefs"}
+- ### juicefs-final.tar.gz
+    {"url":"https://github.com/juicedata/juicefs"}
+- ### resilio-final.tar.gz
+    {"url":"https://github.com/resilio/sync"}
+- ### tahoe-lafs-final.tar.gz
+    {"url":"https://github.com/tahoe-lafs/tahoe-lafs"}
+- ### phabricator-5720a38-final.tar.gz
+    {"url":"https://github.com/phacility/phabricator"}
+- ### cgit-final.tar.gz
+    {"url":"https://git.zx2c4.com/cgit"}
+
 ### v0.0.12
 - ### supabase-v1-26-05-final.tar.gz
     {"url":"https://github.com/supabase/supabase"}
